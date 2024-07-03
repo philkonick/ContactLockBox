@@ -1,0 +1,8 @@
+<ion-item>
+	<ion-label>
+		<h2>{{ contact?.name?.display }}</h2>
+		@for (phone of contact?.phones; track contact?.phones) {
+			<p>{{ phone.number }}</p>
+		}
+	</ion-label>
+</ion-item>

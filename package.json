@@ -1,8 +1,8 @@
 {
   "name": "ContactLockBox",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Phil Konick",
+  "homepage": "https://philkonick.com/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -21,6 +21,8 @@
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
+    "@capacitor-community/contacts": "^5.0.5",
+    "@capacitor/android": "^6.1.0",
     "@capacitor/app": "6.0.0",
     "@capacitor/core": "6.1.0",
     "@capacitor/haptics": "6.0.0",
@@ -58,7 +60,8 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "prettier": "^3.3.2",
     "typescript": "~5.4.0"
   },
-  "description": "An Ionic project"
+  "description": "A timed lockbox for contacts"
 }
